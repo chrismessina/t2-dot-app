@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Sky
+//  t2
 //  All rights reserved.
 //
 
@@ -9,8 +9,8 @@ import WebKit
 
 class ViewController: NSViewController {
 
-    enum SkyUrls {
-        static let host = "staging.bsky.app"
+    enum t2Urls {
+        static let host = "t2.social"
         static let root = "https://\(host)"
         static let home = "\(root)/"
         static let search = "\(root)/search"
@@ -55,7 +55,7 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: SkyUrls.root)
+        let url = URL(string: t2Urls.root)
         let myRequest = URLRequest(url: url!)
         webView.load(myRequest)
     }
@@ -67,27 +67,27 @@ class ViewController: NSViewController {
     }
 
     @IBAction func actionViewHome(_ sender: Any?) {
-        NSLog("view home \(SkyUrls.home)")
+        NSLog("view home \(t2Urls.home)")
         self.webView.evaluateJavaScript(clickNavbarByIndexOrLabel(index: 0, label: "Home"))
     }
 
     @IBAction func actionViewSearch(_ sender: Any?) {
-        NSLog("view search \(SkyUrls.search)")
+        NSLog("view search \(t2Urls.search)")
         self.webView.evaluateJavaScript(clickNavbarByIndexOrLabel(index: 1, label: "Search"))
     }
 
     @IBAction func actionViewNotifications(_ sender: Any?) {
-        NSLog("view notifications \(SkyUrls.notifications)")
+        NSLog("view notifications \(t2Urls.notifications)")
         self.webView.evaluateJavaScript(clickNavbarByIndexOrLabel(index: 2, label: "Notifications"))
     }
 
-    @IBAction func actionViewProfile(_ sender: Any?) {
-        NSLog("view profile \(SkyUrls.settings)")
-        self.webView.evaluateJavaScript(clickNavbarByIndexOrLabel(index: 3, label: "Profile"))
-    }
+//    @IBAction func actionViewProfile(_ sender: Any?) {
+//        NSLog("view profile \(t2Urls.settings)")
+//        self.webView.evaluateJavaScript(clickNavbarByIndexOrLabel(index: 3, label: "Profile"))
+//    }
 
     @IBAction func actionViewSettings(_ sender: Any?) {
-        NSLog("view settings \(SkyUrls.settings)")
+        NSLog("view settings \(t2Urls.settings)")
         self.webView.evaluateJavaScript(clickNavbarByIndexOrLabel(index: -1, label: "Settings"))
     }
 
@@ -98,8 +98,8 @@ class ViewController: NSViewController {
     @IBAction func actionOpenInBrowser(_ sender: Any?) {
         let urlString = webView.url!.absoluteString
         switch urlString {
-        case SkyUrls.home,
-             SkyUrls.notifications:
+        case t2Urls.home,
+             t2Urls.notifications:
             break
         default:
             NSWorkspace.shared.open(webView.url!)
@@ -107,7 +107,7 @@ class ViewController: NSViewController {
     }
 
     @IBAction func actionNewPost(_ sender: Any?) {
-        NSLog("new post \(SkyUrls.settings)")
+        NSLog("new post \(t2Urls.settings)")
         self.webView.evaluateJavaScript(clickNewPost());
     }
 

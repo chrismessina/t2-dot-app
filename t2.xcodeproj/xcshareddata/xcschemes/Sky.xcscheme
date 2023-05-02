@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04E847C521D99CE0009D1B0F"
-               BuildableName = "Sky.app"
-               BlueprintName = "Sky"
-               ReferencedContainer = "container:Sky.xcodeproj">
+               BuildableName = "t2.app"
+               BlueprintName = "t2"
+               ReferencedContainer = "container:t2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04E847D721D99CE1009D1B0F"
-               BuildableName = "SkyTests.xctest"
-               BlueprintName = "SkyTests"
-               ReferencedContainer = "container:Sky.xcodeproj">
+               BuildableName = "t2Tests.xctest"
+               BlueprintName = "t2Tests"
+               ReferencedContainer = "container:t2.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04E847E221D99CE1009D1B0F"
-               BuildableName = "SkyUITests.xctest"
-               BlueprintName = "SkyUITests"
-               ReferencedContainer = "container:Sky.xcodeproj">
+               BuildableName = "t2UITests.xctest"
+               BlueprintName = "t2UITests"
+               ReferencedContainer = "container:t2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04E847C521D99CE0009D1B0F"
-            BuildableName = "Sky.app"
-            BlueprintName = "Sky"
-            ReferencedContainer = "container:Sky.xcodeproj">
+            BuildableName = "t2.app"
+            BlueprintName = "t2"
+            ReferencedContainer = "container:t2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04E847C521D99CE0009D1B0F"
-            BuildableName = "Sky.app"
-            BlueprintName = "Sky"
-            ReferencedContainer = "container:Sky.xcodeproj">
+            BuildableName = "t2.app"
+            BlueprintName = "t2"
+            ReferencedContainer = "container:t2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -93,6 +93,7 @@
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
+      customArchiveName = "t2"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

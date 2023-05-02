@@ -1,15 +1,15 @@
 //
-//  SkyTests.swift
-//  SkyTests
+//  t2Tests.swift
+//  t2Tests
 //
 
 //  All rights reserved.
 //
 
 import XCTest
-@testable import Sky
+@testable import t2
 
-class SkyTests: XCTestCase {
+class t2Tests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

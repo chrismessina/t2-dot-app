@@ -14,8 +14,8 @@
 		04E847CC21D99CE0009D1B0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E847CB21D99CE0009D1B0F /* ViewController.swift */; };
 		04E847CE21D99CE1009D1B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E847CD21D99CE1009D1B0F /* Assets.xcassets */; };
 		04E847D121D99CE1009D1B0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E847CF21D99CE1009D1B0F /* Main.storyboard */; };
-		04E847DD21D99CE1009D1B0F /* SkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E847DC21D99CE1009D1B0F /* SkyTests.swift */; };
-		04E847E821D99CE1009D1B0F /* SkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E847E721D99CE1009D1B0F /* SkyUITests.swift */; };
+		04E847DD21D99CE1009D1B0F /* t2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E847DC21D99CE1009D1B0F /* t2Tests.swift */; };
+		04E847E821D99CE1009D1B0F /* t2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E847E721D99CE1009D1B0F /* t2UITests.swift */; };
 		04E847F721D99DEE009D1B0F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E847F621D99DEE009D1B0F /* WebKit.framework */; };
 		04E8481121DA8A5E009D1B0F /* WebKitDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E8481021DA8A5E009D1B0F /* WebKitDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -41,18 +41,18 @@
 		043A0F1729A5330E00B06D18 /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Scripts; sourceTree = "<group>"; };
 		043A0F1929A5331800B06D18 /* JsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsLoader.swift; sourceTree = "<group>"; };
 		043A0F1A29A5331800B06D18 /* ScriptMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptMessageHandler.swift; sourceTree = "<group>"; };
-		04E847C621D99CE0009D1B0F /* Sky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E847C621D99CE0009D1B0F /* t2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = t2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E847C921D99CE0009D1B0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E847CB21D99CE0009D1B0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E847CD21D99CE1009D1B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E847D021D99CE1009D1B0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E847D221D99CE1009D1B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04E847D321D99CE1009D1B0F /* Sky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sky.entitlements; sourceTree = "<group>"; };
-		04E847D821D99CE1009D1B0F /* SkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E847DC21D99CE1009D1B0F /* SkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyTests.swift; sourceTree = "<group>"; };
+		04E847D321D99CE1009D1B0F /* t2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = t2.entitlements; sourceTree = "<group>"; };
+		04E847D821D99CE1009D1B0F /* t2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = t2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E847DC21D99CE1009D1B0F /* t2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t2Tests.swift; sourceTree = "<group>"; };
 		04E847DE21D99CE1009D1B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04E847E321D99CE1009D1B0F /* SkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E847E721D99CE1009D1B0F /* SkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyUITests.swift; sourceTree = "<group>"; };
+		04E847E321D99CE1009D1B0F /* t2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = t2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E847E721D99CE1009D1B0F /* t2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = t2UITests.swift; sourceTree = "<group>"; };
 		04E847E921D99CE1009D1B0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E847F621D99DEE009D1B0F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		04E8481021DA8A5E009D1B0F /* WebKitDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitDelegate.swift; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		04E847BD21D99CE0009D1B0F = {
 			isa = PBXGroup;
 			children = (
-				04E847C821D99CE0009D1B0F /* Sky */,
-				04E847DB21D99CE1009D1B0F /* SkyTests */,
-				04E847E621D99CE1009D1B0F /* SkyUITests */,
+				04E847C821D99CE0009D1B0F /* t2 */,
+				04E847DB21D99CE1009D1B0F /* t2Tests */,
+				04E847E621D99CE1009D1B0F /* t2UITests */,
 				04E847C721D99CE0009D1B0F /* Products */,
 				04E847F521D99DEE009D1B0F /* Frameworks */,
 			);
@@ -98,14 +98,14 @@
 		04E847C721D99CE0009D1B0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04E847C621D99CE0009D1B0F /* Sky.app */,
-				04E847D821D99CE1009D1B0F /* SkyTests.xctest */,
-				04E847E321D99CE1009D1B0F /* SkyUITests.xctest */,
+				04E847C621D99CE0009D1B0F /* t2.app */,
+				04E847D821D99CE1009D1B0F /* t2Tests.xctest */,
+				04E847E321D99CE1009D1B0F /* t2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04E847C821D99CE0009D1B0F /* Sky */ = {
+		04E847C821D99CE0009D1B0F /* t2 */ = {
 			isa = PBXGroup;
 			children = (
 				043A0F1729A5330E00B06D18 /* Scripts */,
@@ -117,27 +117,27 @@
 				04E847CD21D99CE1009D1B0F /* Assets.xcassets */,
 				04E847CF21D99CE1009D1B0F /* Main.storyboard */,
 				04E847D221D99CE1009D1B0F /* Info.plist */,
-				04E847D321D99CE1009D1B0F /* Sky.entitlements */,
+				04E847D321D99CE1009D1B0F /* t2.entitlements */,
 			);
-			path = Sky;
+			path = t2;
 			sourceTree = "<group>";
 		};
-		04E847DB21D99CE1009D1B0F /* SkyTests */ = {
+		04E847DB21D99CE1009D1B0F /* t2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				04E847DC21D99CE1009D1B0F /* SkyTests.swift */,
+				04E847DC21D99CE1009D1B0F /* t2Tests.swift */,
 				04E847DE21D99CE1009D1B0F /* Info.plist */,
 			);
-			path = SkyTests;
+			path = t2Tests;
 			sourceTree = "<group>";
 		};
-		04E847E621D99CE1009D1B0F /* SkyUITests */ = {
+		04E847E621D99CE1009D1B0F /* t2UITests */ = {
 			isa = PBXGroup;
 			children = (
-				04E847E721D99CE1009D1B0F /* SkyUITests.swift */,
+				04E847E721D99CE1009D1B0F /* t2UITests.swift */,
 				04E847E921D99CE1009D1B0F /* Info.plist */,
 			);
-			path = SkyUITests;
+			path = t2UITests;
 			sourceTree = "<group>";
 		};
 		04E847F521D99DEE009D1B0F /* Frameworks */ = {
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04E847C521D99CE0009D1B0F /* Sky */ = {
+		04E847C521D99CE0009D1B0F /* t2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E847EC21D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "Sky" */;
+			buildConfigurationList = 04E847EC21D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "t2" */;
 			buildPhases = (
 				04E847C221D99CE0009D1B0F /* Sources */,
 				04E847C321D99CE0009D1B0F /* Frameworks */,
@@ -163,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = Sky;
+			name = t2;
 			productName = Sky;
-			productReference = 04E847C621D99CE0009D1B0F /* Sky.app */;
+			productReference = 04E847C621D99CE0009D1B0F /* t2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04E847D721D99CE1009D1B0F /* SkyTests */ = {
+		04E847D721D99CE1009D1B0F /* t2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E847EF21D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "SkyTests" */;
+			buildConfigurationList = 04E847EF21D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "t2Tests" */;
 			buildPhases = (
 				04E847D421D99CE1009D1B0F /* Sources */,
 				04E847D521D99CE1009D1B0F /* Frameworks */,
@@ -181,14 +181,14 @@
 			dependencies = (
 				04E847DA21D99CE1009D1B0F /* PBXTargetDependency */,
 			);
-			name = SkyTests;
+			name = t2Tests;
 			productName = SkyTests;
-			productReference = 04E847D821D99CE1009D1B0F /* SkyTests.xctest */;
+			productReference = 04E847D821D99CE1009D1B0F /* t2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		04E847E221D99CE1009D1B0F /* SkyUITests */ = {
+		04E847E221D99CE1009D1B0F /* t2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E847F221D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "SkyUITests" */;
+			buildConfigurationList = 04E847F221D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "t2UITests" */;
 			buildPhases = (
 				04E847DF21D99CE1009D1B0F /* Sources */,
 				04E847E021D99CE1009D1B0F /* Frameworks */,
@@ -199,9 +199,9 @@
 			dependencies = (
 				04E847E521D99CE1009D1B0F /* PBXTargetDependency */,
 			);
-			name = SkyUITests;
+			name = t2UITests;
 			productName = SkyUITests;
-			productReference = 04E847E321D99CE1009D1B0F /* SkyUITests.xctest */;
+			productReference = 04E847E321D99CE1009D1B0F /* t2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1430;
-				ORGANIZATIONNAME = "Jerry Chen";
+				ORGANIZATIONNAME = "Chris Messina";
 				TargetAttributes = {
 					04E847C521D99CE0009D1B0F = {
 						CreatedOnToolsVersion = 10.1;
@@ -231,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04E847C121D99CE0009D1B0F /* Build configuration list for PBXProject "Sky" */;
+			buildConfigurationList = 04E847C121D99CE0009D1B0F /* Build configuration list for PBXProject "t2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,9 +244,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04E847C521D99CE0009D1B0F /* Sky */,
-				04E847D721D99CE1009D1B0F /* SkyTests */,
-				04E847E221D99CE1009D1B0F /* SkyUITests */,
+				04E847C521D99CE0009D1B0F /* t2 */,
+				04E847D721D99CE1009D1B0F /* t2Tests */,
+				04E847E221D99CE1009D1B0F /* t2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E847DD21D99CE1009D1B0F /* SkyTests.swift in Sources */,
+				04E847DD21D99CE1009D1B0F /* t2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E847E821D99CE1009D1B0F /* SkyUITests.swift in Sources */,
+				04E847E821D99CE1009D1B0F /* t2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		04E847DA21D99CE1009D1B0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04E847C521D99CE0009D1B0F /* Sky */;
+			target = 04E847C521D99CE0009D1B0F /* t2 */;
 			targetProxy = 04E847D921D99CE1009D1B0F /* PBXContainerItemProxy */;
 		};
 		04E847E521D99CE1009D1B0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04E847C521D99CE0009D1B0F /* Sky */;
+			target = 04E847C521D99CE0009D1B0F /* t2 */;
 			targetProxy = 04E847E421D99CE1009D1B0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -458,17 +458,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Sky/Sky.entitlements;
+				CODE_SIGN_ENTITLEMENTS = t2/t2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				INFOPLIST_FILE = Sky/Info.plist;
+				INFOPLIST_FILE = t2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chris Messina";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = jcsalterego.Sky;
+				PRODUCT_BUNDLE_IDENTIFIER = chrismessina.apps.t2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -478,17 +480,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Sky/Sky.entitlements;
+				CODE_SIGN_ENTITLEMENTS = t2/t2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				INFOPLIST_FILE = Sky/Info.plist;
+				INFOPLIST_FILE = t2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chris Messina";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = jcsalterego.Sky;
+				PRODUCT_BUNDLE_IDENTIFIER = chrismessina.apps.t2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -502,17 +506,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				INFOPLIST_FILE = SkyTests/Info.plist;
+				INFOPLIST_FILE = t2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = jcsalterego.SkyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = chrismessina.t2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sky.app/Contents/MacOS/Sky";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/t2.app/Contents/MacOS/t2";
 			};
 			name = Debug;
 		};
@@ -524,17 +528,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				INFOPLIST_FILE = SkyTests/Info.plist;
+				INFOPLIST_FILE = t2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = jcsalterego.SkyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = chrismessina.t2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sky.app/Contents/MacOS/Sky";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/t2.app/Contents/MacOS/t2";
 			};
 			name = Release;
 		};
@@ -545,16 +549,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				INFOPLIST_FILE = SkyUITests/Info.plist;
+				INFOPLIST_FILE = t2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = jcsalterego.SkyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = chrismessina.t2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = Sky;
 			};
 			name = Debug;
@@ -566,16 +570,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				INFOPLIST_FILE = SkyUITests/Info.plist;
+				INFOPLIST_FILE = t2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = jcsalterego.SkyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = chrismessina.t2UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = Sky;
 			};
 			name = Release;
@@ -583,7 +587,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E847C121D99CE0009D1B0F /* Build configuration list for PBXProject "Sky" */ = {
+		04E847C121D99CE0009D1B0F /* Build configuration list for PBXProject "t2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E847EA21D99CE1009D1B0F /* Debug */,
@@ -592,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E847EC21D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "Sky" */ = {
+		04E847EC21D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "t2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E847ED21D99CE1009D1B0F /* Debug */,
@@ -601,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E847EF21D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "SkyTests" */ = {
+		04E847EF21D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "t2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E847F021D99CE1009D1B0F /* Debug */,
@@ -610,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E847F221D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "SkyUITests" */ = {
+		04E847F221D99CE1009D1B0F /* Build configuration list for PBXNativeTarget "t2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E847F321D99CE1009D1B0F /* Debug */,

@@ -1,6 +1,6 @@
 //
-//  SkyUITests.swift
-//  SkyUITests
+//  t2UITests.swift
+//  t2UITests
 //
 
 //  All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class SkyUITests: XCTestCase {
+class t2UITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

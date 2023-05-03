@@ -1,12 +1,12 @@
-# Sky.app
+# t2.app
 
-A lightweight wrapper around bsky.social (staging.bsky.social) on MacOS.
+A lightweight wrapper around t2.social on MacOS. Based on [jcsalterego/Sky.app](https://github.com/jcsalterego/Sky.app).
 
 ## Download
 
-Clone the repo or download the DMG from the [Releases](https://github.com/jcsalterego/Sky/releases) page.
+Clone the repo or download the DMG from the [Releases](https://github.com/chrismessina/t2-dot-app/releases) page.
 
-## Keyboard Shortcuts
+## Keyboard Shortcuts (__Coming soon__)
 
 * `⌘-N` New Post
 * `⌘-T` Open in Browser
@@ -21,22 +21,9 @@ Clone the repo or download the DMG from the [Releases](https://github.com/jcsalt
 
 ## Credits
 
-App icon based on the [work](https://unsplash.com/photos/KVVpx8M10OY) of Carmine Savarese].
+Built from a fork of jcsalterego's [Sky.app](https://github.com/jcsalterego/Sky.app).
 
 ## Changelog
-
-### 0.0.4
-
-* Open in Browser
-
-### 0.0.3
-
-* Full Light/Dark Mode sync (scrollbars included)
-
-### 0.0.2
-
-* Title bar follows dark mode
-* FIX: Remove outer scrollbars
 
 ### 0.0.1
 
